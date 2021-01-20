@@ -27,7 +27,7 @@ StringBuilder와 StringBuffer는 **가변성(mutable)**을 가지고 있다.
 
 개념 : https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/StringBuilder.html
 
-- 동기화(Synchronized)를 지원하지 않는다. (Non Thread Safe) -> 그대신 StrinbBuffer보다 속도가 빠
+- 동기화(Synchronized)를 지원하지 않는다. (Non Thread Safe) -> 그대신 StrinbBuffer보다 속도가 빠르다
 - 단일쓰레드에서의 성능은 StringBuffer 보다 뛰어나다.
 - 기존의 데이터에 더하는 방식이라 속도가 빠르다.
 
