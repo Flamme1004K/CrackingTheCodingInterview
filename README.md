@@ -8,4 +8,8 @@
 
 기간 : 1월 18일 ~ 2월 말 예정
 
-[1주차 ](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week1.md)
+## 1주차 : String, StringBuilder, StringBuffer
+
+[1주차 정리](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week1.md)
+
+[1주차 숙제 StringBuilder 구현하기](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/src/study/crackingthecodinginterview/Week1.java)
