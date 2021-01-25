@@ -32,7 +32,9 @@ public class Week1 {
         }
 
         public void insert(String string, int index) {
-            String result = String.valueOf(this.chars, 0 ,index) + string + String.valueOf(this.chars, index, chars.length-index);
+            String result = String.valueOf(this.chars, 0 ,index)
+                    + string
+                    + String.valueOf(this.chars, index, chars.length-index);
             this.chars = result.toCharArray();
         }
 
@@ -46,6 +48,7 @@ public class Week1 {
 
         public void replace(String string, int index) {
             String result = String.valueOf(this.chars, 0 ,index-1) + string + String.valueOf(this.chars, index, chars.length-index);
+
             this.chars = result.toCharArray();
         }
 
@@ -54,7 +57,7 @@ public class Week1 {
 
             char[] temp = new char[n];
 
-            for (int i = 0; i < n; i++)
+            for(int i = 0; i < n; i++)
                 temp[n - i - 1] = chars[i];
 
             this.chars = temp;
@@ -73,7 +76,6 @@ public class Week1 {
         myStringBuilder.insert("Flamme", 5);
         myStringBuilder.delete(5,10);
         myStringBuilder.reverse();
-
         // exception 처리해야함
         System.out.println("myStringBuilder = " + myStringBuilder);
     }
