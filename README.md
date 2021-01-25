@@ -15,5 +15,5 @@
 [1주차 숙제 StringBuilder 구현하기](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/src/study/crackingthecodinginterview/Week1.java)
 
 
-## 1주차 : String, StringBuilder, StringBuffer Code Review
-[1주차 정리] https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week2.md
+## 2주차 : String, StringBuilder, StringBuffer Code Review
+[2주차 정리](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week2.md)
