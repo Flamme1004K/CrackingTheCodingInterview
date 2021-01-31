@@ -17,3 +17,8 @@
 
 ## 2주차 : String, StringBuilder, StringBuffer Code Review
 [2주차 정리](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week2.md)
+
+## 3주차 : HashCode, LinkedList
+[3주차 정리](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week3.md)
+
+[HashTable 구현](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/src/study/crackingthecodinginterview/Week3.java)
