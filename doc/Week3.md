@@ -13,6 +13,8 @@ https://www.youtube.com/watch?v=Vi0hauJemxA
 
 해시 코드를 이용하여 direct로 배열에 접근할 수 있기 때문에 속도가 빠르다.
 
+해슁? https://itstory.tk/entry/%ED%95%B4%EC%8A%81Hashing-%ED%95%B4%EC%89%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%95%B4%EC%89%AC-%ED%95%A8%EC%88%98
+
 ###  키와 상응하는 값을 찾는 방법
 
 1. 키의 해시 코드를 계산한다. 
@@ -74,6 +76,8 @@ https://www.youtube.com/watch?v=Vi0hauJemxA
 Runner는 연결리스트 문제에서 많이 활용되는 기법이다.
 
 연결리스트를 순회할 때 두 개의 포인터를 동시에 사용하는 것이다.
+
+https://sina-sina.tistory.com/44
 
 ### 재귀 문제
 재귀 문제는 O(n)만큼의 공간을 사용한다.
