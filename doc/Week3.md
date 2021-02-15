@@ -70,6 +70,15 @@ https://www.youtube.com/watch?v=Vi0hauJemxA
  주의점 : 
  - 널 포인터 검사 할 것
  - head와 tail 포인터도 갱신한다.
+ 
+#### Array와 LinkedList의 차이
+
+- Array 같은 경우는 메모리에 공간이 정해져있고, remove나 push를 하였을때 공간 자체(만약 메모리가 차면 메모리 공간을 다시 만들어주기 위함.)
+를 새롭게 할당을하고 메모리 추가 삭제가 시작된다.
+- Array에서 중간에 삭제를 하면 빈공간이 생기므로, 메모리 파편화가 생긴다.(?)
+- LinkedList는 각 노드에 대한 연결을 한다.
+
+
 
 
 ### Runner 기법
