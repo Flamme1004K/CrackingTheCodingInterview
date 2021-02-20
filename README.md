@@ -22,3 +22,11 @@
 [3주차 정리](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week3.md)
 
 [HashTable 구현](https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/src/study/crackingthecodinginterview/Week3.java)
+
+## 4주차 : Stack Queue
+[4주차 정리] (https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week4.md)
+
+[Stack & Queue 구현] (https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/src/study/crackingthecodinginterview/Week4.java)
+
+## 5주차 : Tree
+[5주차 정리] (https://github.com/Flamme1004K/CrackingTheCodingInterview/blob/master/doc/Week5.md)
