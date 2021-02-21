@@ -6,6 +6,17 @@
 - 그래프(Graph)의 한 부분이다. 
 	- 트리는 비 순환 그래프이다. -> 서로 순환하지 않으며, 개별 요소들이 특정한 방향으로 향하고 있는 그래프.
 
+```java
+class Tree {
+    public Node root;
+}
+
+class Node {
+    public String name;
+    public Node[] children;
+}
+```
+
 ## 트리(Tree)의 특징
 
 - 하나의 루트 노드(Root Node)를 갖는다.
@@ -101,15 +112,46 @@
 
 - 왼쪽 가지 -> 현재 노드 -> 오른쪽 가지 순으로 방문
 
+```java
+void inOrderTraversal(TreeNode node) {
+  if(node != null) {
+   inOrderTraversal(node.left);
+   visit(node);
+   inOrderTraversal(node.right);
+  }
+}
+```
+
+
 ### 전위 순회(Pre-order traversal)
 
 - 자식 노드보다 현재 노드를 먼저 방문하는 방법
 - 가장 먼저 방문하게 될 노드는 언제나 루트이다.
 
+```java
+void preOrderTraversal(TreeNode node) {
+  if(node != null) {
+   visit(node);
+   preOrderTraversal(node.left);
+   preOrderTraversal(node.right);
+  }
+}
+```
+
 ### 후위 순회(Post-order traversal)
 
 - 모든 자식 노드들은 먼저 방문한 뒤에 마지막에 현재 노드를 방문하는 방법을 말한다.
 - 가장 마지막에 방문하게 될 노드는 언제나 루트이다.
+
+```java
+void postOrderTraversal(TreeNode node) {
+  if(node != null) {
+   postOrderTraversal(node.left);
+   postOrderTraversal(node.right);
+   visit(node);
+  }
+}
+```
 
 ## 이진 힙(Binary heap)
 ![](https://gmlwjd9405.github.io/images/data-structure-heap/types-of-heap.png)
