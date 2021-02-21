@@ -53,7 +53,6 @@ class Node {
 - 이진 힙(Binary heap)
 - 트라이(접두사 트리/ Prefix tree)
 
-
 # 이진트리(Binary Tree) 
 
 - 이진 트리는 최대 두개의 자식을 갖는 트리를 말한다.
@@ -214,3 +213,5 @@ void postOrderTraversal(TreeNode node) {
 [이진 탐색 트리](https://blog.hexabrain.net/248)
 
 [힙이란?](https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html)
+
+[logN?](https://velog.io/@nninnnin7/logN%EC%9D%98-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84-%ED%8E%8C)
