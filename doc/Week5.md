@@ -185,7 +185,7 @@ void postOrderTraversal(TreeNode node) {
 
 
 ## 트라이(접두사 트리)
-![접두사 트리 이미지 검색결과](https://lh3.googleusercontent.com/proxy/LxNsxRq59I_rZAPMjMEg2sQaRY5BGsYIXfG3WYFxPirCuaj_OUz_NEELv5vt8qwn0EnQ5hwVeuWJlL_wgAJQr9qrR54vVmdh1auvYuDOonvVEXByxM9kfU5BkPFoQFZGC5RPzGd5P0OwYwhAe016h-f_WwaM-KpvXQnXzSk)
+![8: The trie tree created for the keyword set {he, she, his, hers}. Accepting states are numbered. ](https://www.researchgate.net/profile/Ciprian-Pungila/publication/319954837/figure/fig6/AS:631660399820821@1527610983829/The-trie-tree-created-for-the-keyword-set-he-she-his-hers-Accepting-states-are.png)
 
 - 트라이(Tree)는 n-차 트리 (N-ary tree)의 변종으로 각 노드(Node)에 문자를 저장하는 자료구조이다.
 - 트리를 아래쪽으로 순회하면 단어 하나가 나온다.
