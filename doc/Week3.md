@@ -105,3 +105,5 @@ https://sina-sina.tistory.com/44
 배열을 추가하면 reallocation이 적용된다. reallocation이란 StringBuilder에서의 System.copy를 생각하면 된다.
 
 즉 기존 공간 배열을 새로운 공간에 복사하는 것이다.
+
+# List와 ArrayList의 차이?
