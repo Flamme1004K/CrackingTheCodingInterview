@@ -68,4 +68,5 @@ http://logonluv.blogspot.com/2015/02/datastructure-queue.html
 
 ## Deque와 List의 차이
 
+https://stackoverflow.com/questions/12524826/why-should-i-use-deque-over-stack
 
